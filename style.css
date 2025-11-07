@@ -1,8 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap');
 
+:root {
+    --text-colour: #FFCFCF;
+    --link-colour: #BF4C4C;
+    --background-colour: #4F0000;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
     font-family: 'Nunito', sans-serif;
+    background-color: var(--background-colour);
+}
+
+a {
+    color: var(--text-colour);
+
+/*<!-- avoiding the underline of links -->*/
+    text-decoration: none;
+}
+
+/* NAVBAR */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 50px;
+    height: 80px;
+}
+
+nav .left a {
+
 }
