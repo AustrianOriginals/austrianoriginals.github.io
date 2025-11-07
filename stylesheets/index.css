@@ -73,8 +73,8 @@ body {
 
 .Home {
     height: 100vh;
-    background: url('#') no-repeat;
-    background-size: 450px;
+    background: url("#") no-repeat;
+    background-size: 1500px;
     background-position: right;
     margin-right: 150px;
     display: flex;

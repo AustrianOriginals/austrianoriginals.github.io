@@ -73,7 +73,7 @@ body {
 
 .projects {
     height: 100vh;
-    background: url('#') no-repeat;
+    background: url("#") no-repeat;
     background-size: 450px;
     background-position: right;
     margin-right: 150px;
