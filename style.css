@@ -28,6 +28,7 @@ a {
     text-decoration: none;
 }
 
+/******************************************************************************************/
 /* NAVBAR */
 nav{
     display: flex;
@@ -39,5 +40,87 @@ nav{
 }
 
 nav .left a {
+    color: var(--text-colour);
+    font-size: 22px;
+    font-weight: 600;
+}
 
+nav .right a {
+    color: var(--text-colour);
+    margin: 0 10px;
+}
+
+nav .right a:last-child {
+    color: var(--background-colour);
+    background-color: var(--text-colour);
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+/********************************************************************************************/
+/* Section 1: Header */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    margin: 50px 0;
+    gap: 40px;
+}
+
+.header .text{
+    flex:5;
+}
+
+.header .text h1{
+    font-size: 55px;
+}
+
+.header .text p{
+    font-size: 26px;
+}
+
+.header .jumps{
+    color: var(--text-colour);
+    margin: 36px 10px;
+    font-size: 18px;
+}
+
+.header .jumps a{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: 0.5s;
+}
+.header .jumps a:hover{
+    color: var(--background-colour);
+    background-color: var(--text-colour);
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.header .photo{
+    flex:2;
+}
+
+.header .photo img{
+    border-radius: 33%;
+    transition: 0.5s;
+}
+
+/*******************************************************************************************/
+/*Displaysizes*/
+@media(max-width: 600px){
+    /*NAVBAR*/
+    nav{
+        padding: 0 20px;
+    }
+
+    nav .left a{
+        font-size: 12px;
+    }
+
+    nav .right a {
+        move-to: left;
+        font-size: 12px;
+    }
 }
