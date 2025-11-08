@@ -65,6 +65,7 @@ nav .right a:last-child {
     align-items: center;
     padding: 0 50px;
     margin: 50px 0;
+    margin-bottom: 100px;
     gap: 40px;
 }
 
@@ -73,11 +74,12 @@ nav .right a:last-child {
 }
 
 .header .text h1{
-    font-size: 55px;
+    font-size: 46px;
 }
 
 .header .text p{
-    font-size: 26px;
+    font-size: 18px;
+    margin-right: 50px;
 }
 
 .header .jumps{
@@ -100,11 +102,14 @@ nav .right a:last-child {
 
 .header .photo{
     flex:2;
+    display: flex;
+    justify-content: right;
 }
 
 .header .photo img{
-    border-radius: 33%;
-    transition: 0.5s;
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
 }
 
 /*******************************************************************************************/
